@@ -1,6 +1,2 @@
-# It_step_academy_2
-12344556
-Hello world
-html.bin
-siema
-czesc
+# Один из моих любимых сайтов
+# https://gunfire.com/pl/

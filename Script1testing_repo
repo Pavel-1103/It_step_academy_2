@@ -23,9 +23,3 @@ message = WebDriverWait(browser, 32).until_not(
     )
 
 time.sleep(5)
-
-
-
-
-
-

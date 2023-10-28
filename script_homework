@@ -24,7 +24,6 @@ try:
     login_button = browser.find_element(By.XPATH, "//input[@value='Увійти']").click()
 
     message = WebDriverWait(browser, 5).until_not(
-        #EC.element_to_be_clickable((By.XPATH, "//div[@class='alert alert-success']"))
         EC.visibility_of_element_located((By.XPATH, "//div[@class='s-modal__inner done']"))
     )
     time.sleep(10)
